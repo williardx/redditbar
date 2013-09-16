@@ -1,0 +1,164 @@
+body {
+	font: normal x-small verdana,arial,helvetica,sans-serif;
+	font-family: verdana, arial, helvetica, sans-serif;
+}
+
+ul {
+	list-style: none;
+	display: inline;
+}
+
+li {
+	display: inline;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+body, div, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	border-bottom: 1px solid #5f99cf;
+	position: relative;
+	background-color: #cee3f8;
+	z-index: 99;
+}
+
+#sr-navbar {
+	background-color: #f0f0f0;
+	white-space: nowrap;
+	text-transform: uppercase;
+	border-bottom: 1px solid gray;
+	font-size: 90%;
+	height: 18px;
+	line-height: 18px;
+}
+
+#sr-dropdown {
+	float: left;
+	padding-left: 5px;
+}
+
+#mysubreddits {
+	background: none no-repeat scroll center right;
+	background-image: url(http://www.redditstatic.com/droparrowgray.gif);
+	display: inline-block;
+	vertical-align: bottom;
+	padding-right: 21px;
+	padding-left: 5px;
+	color: black;
+	font-weight: normal;
+	margin-left: -5px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.separator {
+	color: gray;
+	margin: 0px .7ex 0px .5ex;
+	cursor: default;
+}
+
+#sr-list{
+	overflow: hidden;
+}
+
+#sr-list a {
+	color: black;
+}
+
+#sr-list .active a {
+	color: #FF4500;
+	font-weight: bold;
+}
+
+#more-link {
+	color: black;
+	background-color: #f0f0f0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 0 5px 0 15px;
+	font-weight: bold;
+	margin: 0;
+}
+
+#lower-header {
+	display: inline;
+}
+
+#header-logo {
+	text-indent: -9999px;
+	background-image: url(http://www.redditstatic.com/sprite-reddit.SG3viuhBD6A.png);
+	background-position: 0px -313px;
+	background-repeat: no-repeat;
+	height: 40px;
+	width: 120px;
+	display: inline-block;
+	vertical-align: bottom;
+	margin-bottom: 3px;
+	margin-top: 2px;
+	margin-right: 5px;
+}
+
+#tab-menu {
+	list-style-type: none;
+	white-space: nowrap;
+	display: inline-block;
+	margin-top: 5px;
+	vertical-align: bottom;
+}
+
+#tab-menu li a {
+	font-size: larger;
+	font-weight: bold;
+	color: #369;
+	padding: 2px 6px 0 6px;
+	background-color: #eff7ff;
+}
+
+#tab-menu .active a {
+	color: #FF4500;
+	background-color: white;
+	border: 1px solid #5f99cf;
+	border-bottom: 1px solid white;
+	z-index: 100;
+}
+
+#tab-menu a:hover {
+	text-decoration: none;
+}
+
+#login-prompt {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	background-color: #EFF7FF;
+	padding: 4px;
+	line-height: 12px;
+	border-top-left-radius: 7px;
+}
+
+#login {
+	color: gray;
+}
+
+#login a {
+	color: #369;
+}
+
+#lang {
+	font-weight: bold;
+}
+
+.adjustment {
+	margin-left: -3px;
+}
